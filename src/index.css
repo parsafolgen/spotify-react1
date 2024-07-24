@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  ::-webkit-scrollbar{
+    display: none;
+    }
+    .bgspeaker{
+      background: radial-gradient(farthest-corner at 50% 10% ,#03b04027 , #121212);
+    }
+    .volume::-webkit-slider-thumb{
+      -webkit-appearance: none;
+      appearance: none; 
+      height: 12px;
+      width: 12px;
+      border-radius: 50%;
+      background-color: rgb(32, 214, 75);
+    }
+    .volume::-moz-range-track {
+      -webkit-appearance: none;
+      appearance: none; 
+      height: 12px;
+      width: 12px;
+      border-radius: 50%;
+      background-color: rgb(32, 214, 75);
+    }
+}
